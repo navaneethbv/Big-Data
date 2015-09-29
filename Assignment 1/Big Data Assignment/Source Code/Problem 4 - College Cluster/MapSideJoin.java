@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.net.URISyntaxException;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Map;
+import java.util.Map; 
 import java.util.regex.Pattern;
 
 import org.apache.hadoop.conf.Configuration;
