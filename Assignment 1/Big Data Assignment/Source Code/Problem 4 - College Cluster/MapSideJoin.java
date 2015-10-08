@@ -5,7 +5,7 @@ import java.net.URISyntaxException;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map; 
-import java.util.regex.Pattern;
+import java.util.regex.Pattern; 
 
 import org.apache.hadoop.conf.Configuration; 
 import org.apache.hadoop.fs.FileStatus;
