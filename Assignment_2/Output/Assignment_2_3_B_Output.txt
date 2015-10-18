@@ -1,0 +1,19 @@
+(3ZSAY6KKvsNqVE8zAtcy5w,(10962 Le Conte AvenueWestwoodLos Angeles, CA 90024		List(Local Services, Community Service/Non-Profit, Landmarks & Historical Buildings, Public Services & Government),5.0))
+
+(kAhFfbH_kh3XQjD8J3NVLQ,(307 Sagamore Pkwy WSte BWest Lafayette, IN 47906		List(Financial Services, Insurance),5.0))
+
+(MFoGbIewzyfA2MJDOLnjuw,(2401 Walnut StSte 301Rittenhouse SquarePhiladelphia, PA 19103		List(Home Services, Flooring),5.0))
+
+(zXYN0sUMxLGQdKHhScsijw,(30 Brattle StHarvard SquareCambridge, MA 02138		List(Financial Services, Insurance),5.0))
+
+(Du6SkVBGkb7dqtCpdz-_Kg,(San Luis Obispo, CA		List(Wedding Planning, Event Planning & Services),5.0))
+
+(ynM9Faq5Gaql7THtXzbwjA,(103 W Weaver StCarrboro, NC 27510		List(Real Estate Services, Home Services, Real Estate),5.0))
+
+(PsE1SR-WuUF6-SBlK6GI6g,(909 W Adams BlvdSouth Los AngelesLos Angeles, CA 90007		List(Libraries, Public Services & Government),5.0))
+
+(Lr3WKzOW0x1IQwpRhYYIeg,(452 W Vernon AveSouth Los AngelesLos Angeles, CA 90037		List(Arts & Entertainment),5.0))
+
+(TvU8F_N2QM2KebTDtubLxA,(2518 S Figueroa StSouth Los AngelesLos Angeles, CA 90007		List(Asian Fusion, Restaurants),5.0))
+
+(0kssw4eM2ol2iF0fXjoA-A,(696 Monterey StSan Luis Obispo, CA 93401		List(Museums, Arts & Entertainment),5.0))
