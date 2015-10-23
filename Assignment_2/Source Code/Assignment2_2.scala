@@ -15,3 +15,4 @@ val finalDataset = avgReviewData.map(keyvalue => keyvalue.swap).sortByKey(false,
 -- Execution Performance
 -- Standalone Mode (Local Mode): 5357150 micro seconds
 -- Yarn Mode 		       : 5327861 micro seconds
+ 
