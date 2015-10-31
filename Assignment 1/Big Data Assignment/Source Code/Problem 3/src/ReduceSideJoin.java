@@ -21,7 +21,7 @@ import org.apache.hadoop.util.GenericOptionsParser;
 
 class ValueComparator implements Comparator<Object> { 
 	 
-	Map<String, Float> map;
+	Map<String, Float> map; 
  
 	public ValueComparator(Map<String, Float> map) {
 		this.map = map;
