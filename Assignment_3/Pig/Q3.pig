@@ -1,4 +1,4 @@
--- Delete the file if already present
+-- Delete the file if already present 
 rmf $output_location
 
 -- Start of script
