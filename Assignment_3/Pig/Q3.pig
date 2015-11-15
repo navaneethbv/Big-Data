@@ -10,3 +10,4 @@ D = DISTINCT C;
 E = LIMIT D 5;
 
 STORE E INTO '$output_location' USING PigStorage('\t');
+
