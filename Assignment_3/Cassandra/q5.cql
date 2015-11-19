@@ -7,3 +7,4 @@ cqlsh:nbv140130> copy business3(business_id,full_address,categories) from 'busin
 cqlsh:nbv140130> select * from business where business_id = 'HPWmjuivv3xJ279qSVfNaQ';
 cqlsh:nbv140130> truncate business; 
 cqlsh:nbv140130> drop table business;
+ 
