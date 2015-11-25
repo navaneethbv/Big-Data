@@ -6,9 +6,7 @@ Start pig in mapreduce mode by typing pig at command line.
 Q1:
 List the business_id , full address and categories of the Top 10 businesses located in CA using the average ratings. This will require you to use  review.csv and business.csv files.
 
-Please answer the question by calculating the average ratings given to each business using the
-review.csv file. Do not use the already calculated ratings (average_stars) contained in the
-business entity rows.
+Please answer the question by calculating the average ratings given to each business using the review.csv file. Do not use the already calculated ratings (average_stars) contained in the business entity rows.
 
 Q2:
 List the business_id , full address and categories of the top 10 most reviewed businesses not located in CA. Please answer the question by counting the reviews given to each business id not located in CA.
@@ -26,12 +24,10 @@ then exit pig command line and use hdfs command to output your result as shown b
 hdfs dfs -cat / yournetid/casQ1/* 
 
 Part 2: Cassandra
-In this homework you will learn how to use Cassandra. Please use the
-“Apache_Cassandra_1.2.pdf” for reference and help.
+In this homework you will learn how to use Cassandra. Please use the “Apache_Cassandra_1.2.pdf” for reference and help.
 Cassandra 2.05 has been installed and you can access it through cs6360.utdallas.edu. It has four nodes: csac0, csac1, csac2, and csac3. The path is /usr/local/apache-cassandra-2.0.5
 
-**You are going to create a keyspace with your net ID (i.e., abc112233) and do all work in this
-keyspace. Replication factor should be 1.
+**You are going to create a keyspace with your net ID (i.e., abc112233) and do all work in this keyspace. Replication factor should be 1.
 
 
 Q5: Cassandra CQL3
