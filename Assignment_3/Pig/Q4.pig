@@ -18,4 +18,4 @@ L = DISTINCT H;
 I = ORDER L BY avg DESC;
 J = LIMIT I 10;
 
-STORE J INTO '$output_location' USING PigStorage('\t');
+STORE J INTO '$output_location' USING PigStorage('\t');  
