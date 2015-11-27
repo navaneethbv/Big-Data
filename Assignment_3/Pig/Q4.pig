@@ -13,7 +13,7 @@ F = FOREACH E GENERATE FLATTEN(group) AS business_id,COUNT(D.rating) AS avg;
 
 G = COGROUP K BY $0 INNER,F by $0 INNER;
 X = FOREACH G GENERATE FLATTEN(K),FLATTEN(F);
-H = FOREACH X GENERATE $0 AS business_id,$1 AS full_address,$2 AS categories,$4 AS avg;
+H = FOREACH X GENERATE $0 AS business_id,$1 AS full_address,$2 AS categories,$4 AS avg; 
 L = DISTINCT H;
 I = ORDER L BY avg DESC;
 J = LIMIT I 10;
