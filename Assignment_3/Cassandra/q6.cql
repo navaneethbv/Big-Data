@@ -8,4 +8,3 @@ cqlsh:nbv140130> COPY review(review_id,user_id,business_id,rating) from 'review.
 cqlsh:nbv140130> select * from review where rating = 4.0 LIMIT 10;
 cqlsh:nbv140130> truncate review;
 cqlsh:nbv140130> drop table review;
- 
