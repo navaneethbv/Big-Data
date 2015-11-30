@@ -11,7 +11,7 @@ def filt((x,y)):
         global search
         return search in y
 
-def main():
+def main(): 
         sc = SparkContext()
         text = sc.textFile("/yelpdatafall/business/business.csv")
         words = text.map(lambda x : (x.split("^")[0],x.split("^")[1]))
