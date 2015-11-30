@@ -8,7 +8,7 @@ search = ""
 
 def f((x,y)): print(x+" "+y)
 def filt((x,y)):
-        global search
+        global search 
         return search in y
 
 def main(): 
