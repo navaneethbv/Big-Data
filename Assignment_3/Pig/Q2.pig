@@ -3,7 +3,7 @@ rmf $output_location
  
 -- Start of script  
 A = LOAD '/yelpdatafall/business/business.csv' USING PigStorage('^'); 
-B = FOREACH A GENERATE $0 AS business_id,$1 AS full_address,$2 AS categories;
+B = FOREACH A GENERATE $0 AS business_id,$1 AS full_address,$2 AS categories; 
 K = FILTER B BY NOT($1 MATCHES '.*CA.*');  
  
 C = LOAD '/yelpdatafall/review/review.csv' USING PigStorage('^');
