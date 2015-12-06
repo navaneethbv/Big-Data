@@ -1,0 +1,1 @@
+finalAns: Array[(Int, Option[(String, String)])] = Array((1630,Some((Lay of the Land, The (1997),Comedy|Drama))), (1386,Some((Terror in a Texas Town (1958),Western))), (2814,Some((Bat, The (1959),Horror))), (1434,Some((Stranger, The (1994),Action))), (2982,Some((Guardian, The (1990),Horror|Thriller))))
