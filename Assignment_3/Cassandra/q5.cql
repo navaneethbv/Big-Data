@@ -8,3 +8,4 @@ cqlsh:nbv140130> select * from business where business_id = 'HPWmjuivv3xJ279qSVf
 cqlsh:nbv140130> truncate business; 
 cqlsh:nbv140130> drop table business;
  
+ 
