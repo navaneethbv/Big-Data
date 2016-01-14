@@ -5,7 +5,7 @@ NET ID - nbv140130
 1. The college cluster wasn't working. So we ran the programs directly in our local(Windows). 
 2. To run the program, install the latest version of spark on your file system.
 3. Add the C:\spark-1.5.1\bin to your PATH variable in your ENVIRONMENT.
-4. Run the following command - spark-shell
+4. Run the following command - spark-shell 
 5. Provide the input file path in the code for itemusermat and movies.dat and run the program. Else go to the directory where the input is used. Both the methods work.
 6. Observe the output.
 
