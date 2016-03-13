@@ -1,5 +1,5 @@
 var movie = readLine("Enter movie id\n")
-var movieid = movie.toInt
+var movieid = movie.toInt 
 var data = sc.textFile("itemusermat")
 //split the parts into individual numbers
 var mapped = data.map(line => line.split(" "))
