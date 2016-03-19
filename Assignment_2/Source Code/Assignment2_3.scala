@@ -1,4 +1,3 @@
-
 -- 3 A))
 val data = sc.textFile("/yelpdatafall/review/review.csv")
 val data1 = data.map(line => line.split("\\^")).map(line => (line(2), line(3).toDouble))
