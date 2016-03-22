@@ -1,6 +1,6 @@
 -- To start Stardalone Standalone mode
 -- spark-shell --master local[*]
--- to start Yarn mode
+-- to start Yarn mode 
 -- spark-shell --master yarn-client --executor-memory 4G --executor-cores 7 --num-executors 6 
 
 --Code 
