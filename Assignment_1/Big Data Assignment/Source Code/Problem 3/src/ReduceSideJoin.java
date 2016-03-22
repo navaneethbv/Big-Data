@@ -5,7 +5,7 @@ import java.util.Map;
 import java.util.TreeMap;   
 import java.util.regex.Pattern;
  
-import org.apache.hadoop.conf.Configuration;
+import org.apache.hadoop.conf.Configuration; 
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.FloatWritable; 
 import org.apache.hadoop.io.LongWritable;
