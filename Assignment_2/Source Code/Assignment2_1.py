@@ -4,7 +4,7 @@ import getopt
 from pyspark import SparkContext,SparkConf
 
 search = ""  
- 
+
 def f((x,y)): print(x+" "+y)
 def filt((x,y)):
         global search  
