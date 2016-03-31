@@ -6,7 +6,7 @@ from pyspark import SparkContext,SparkConf
 search = ""  
 
 def f((x,y)): print(x+" "+y)
-def filt((x,y)):
+def filt((x,y)): 
         global search  
         return search in y
 
