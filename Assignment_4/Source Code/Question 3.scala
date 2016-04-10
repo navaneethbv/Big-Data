@@ -1,4 +1,4 @@
-import breeze.linalg._
+import breeze.linalg._ 
 import breeze.linalg._
 import org.apache.spark.HashPartitioner
 val ratings = sc.textFile("hdfs://cshadoop1.utdallas.edu/hw4fall/ratings.dat").map(l => (l.split("::")(0),l.split("::")(1),l.split("::")(2))) 
