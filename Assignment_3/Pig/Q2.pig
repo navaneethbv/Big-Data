@@ -1,6 +1,6 @@
 -- Delete the file if already present
 rmf $output_location  
-
+ 
 -- Start of script  
 A = LOAD '/yelpdatafall/business/business.csv' USING PigStorage('^'); 
 B = FOREACH A GENERATE $0 AS business_id,$1 AS full_address,$2 AS categories;
