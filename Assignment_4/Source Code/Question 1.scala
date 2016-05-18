@@ -2,7 +2,7 @@ def details(moviesFile:String, clusters: scala.collection.mutable.Map[Int, List[
 var moviesData = sc.textFile("movies.dat");
 var temp = moviesData.map(line=>line.split("::")).map(line=>(line(0),line(1)+"----"+line(2)))
 for(k <- clusters.keys){ 
-println("  Cluster No "+k)
+println("  Cluster No "+k) 
 var clusterRDD = sc.parallelize(clusters(k).take(5).map(line => line(0).toInt.toString)).collect.toSet;
 temp.filter({case(movieId, movieDetails)=>clusterRDD.contains(movieId)}).foreach(println);
 }
