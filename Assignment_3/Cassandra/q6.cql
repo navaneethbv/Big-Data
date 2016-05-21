@@ -1,4 +1,4 @@
-/usr/local/apache-cassandra-2.0.5/bin/cqlsh csac0
+/usr/local/apache-cassandra-2.0.5/bin/cqlsh csac0 
 
 cqlsh> CREATE KEYSPACE nbv140130 WITH REPLICATION = {'class':'SimpleStrategy','replication_factor':1};
 cqlsh> USE nbv140130;
