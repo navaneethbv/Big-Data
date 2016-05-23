@@ -10,7 +10,7 @@ val k= 5
 val itemMatrix = items.map(x=> (x,DenseVector.zeros[Double](k)))  
 var myitemMatrix = itemMatrix.map(x => (x._1,x._2(0 to k-1):=0.5)).partitionBy(new HashPartitioner(10)).persist  
 val userMatrix = users.map(x=> (x,DenseVector.zeros[Double](k)))
-var myuserMatrix = userMatrix.map(x => (x._1,x._2(0 to k-1):=0.5)).partitionBy(new HashPartitioner(10)).persist 
+var myuserMatrix = userMatrix.map(x => (x._1,x._2(0 to k-1):=0.5)).partitionBy(new HashPartitioner(10)).persist
 val ratingByItem = sc.broadcast(ratings.map(x => (x._2,(x._1,x._3)))) 
 val ratingByUser = sc.broadcast(ratings.map(x => (x._1,(x._2,x._3)))) 
 var i =0
