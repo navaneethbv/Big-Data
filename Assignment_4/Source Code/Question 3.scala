@@ -5,7 +5,7 @@ val ratings = sc.textFile("hdfs://cshadoop1.utdallas.edu/hw4fall/ratings.dat").m
 val itemCount = ratings.map(x=>x._2).distinct.count 
 val userCount = ratings.map(x=>x._1).distinct.count 
 val items = ratings.map(x=>x._2).distinct   
-val users = ratings.map(x=>x._1).distinct  
+val users = ratings.map(x=>x._1).distinct 
 val k= 5   
 val itemMatrix = items.map(x=> (x,DenseVector.zeros[Double](k)))  
 var myitemMatrix = itemMatrix.map(x => (x._1,x._2(0 to k-1):=0.5)).partitionBy(new HashPartitioner(10)).persist  
