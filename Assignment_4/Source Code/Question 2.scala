@@ -4,7 +4,7 @@ var data = sc.textFile("itemusermat")
 //split the parts into individual numbers  
 var mapped = data.map(line => line.split(" "))
 //convert the numbers from String to Int 
-var intMap = mapped.map(x => x.map(_.toInt))
+var intMap = mapped.map(x => x.map(_.toInt)) 
 import java.util.Arrays
 //set 0th column as key and rest as array of values
 var kv = intMap.map(x => (x(0), Arrays.copyOfRange(x, 1,6041)))
