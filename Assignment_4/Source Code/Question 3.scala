@@ -14,7 +14,7 @@ var myuserMatrix = userMatrix.map(x => (x._1,x._2(0 to k-1):=0.5)).partitionBy(n
 val ratingByItem = sc.broadcast(ratings.map(x => (x._2,(x._1,x._3)))) 
 val ratingByUser = sc.broadcast(ratings.map(x => (x._1,(x._2,x._3)))) 
 var i =0
-for( i <- 1 to 10){
+for( i <- 1 to 10){ 
 
 	val ratItemVec = myitemMatrix.join(ratingByItem.value)
 	val regfactor = 1.0 
