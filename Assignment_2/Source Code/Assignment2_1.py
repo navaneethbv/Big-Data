@@ -1,5 +1,5 @@
 import sys 
-import getopt
+import getopt 
 
 from pyspark import SparkContext,SparkConf  
 
