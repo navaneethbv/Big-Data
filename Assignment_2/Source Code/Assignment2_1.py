@@ -2,7 +2,7 @@ import sys
 import getopt  
 
 from pyspark import SparkContext,SparkConf  
-
+ 
 search = ""  
 
 def f((x,y)): print(x+" "+y) 
