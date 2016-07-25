@@ -2,7 +2,7 @@
 -- spark-shell --master local[*]    
 -- to start Yarn mode 
 -- spark-shell --master yarn-client --executor-memory 4G --executor-cores 7 --num-executors 6  
-
+ 
 --Code   
 val reviewFile = "/yelpdatafall/review/review.csv" 
 val reviewData = sc.textFile(reviewFile, 2)
