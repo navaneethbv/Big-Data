@@ -7,7 +7,7 @@ val topTen2 = sc.parallelize(topTen)
 
 val data2 = sc.textFile("/yelpdatafall/business/business.csv")
 val data3 = data2.map(line => line.split("\\^")).map(line => (line(0), (line(1)+"\t\t"+line(2)).toString)) 
-
+ 
 val res = data3.join(topTen2).distinct()
 res.foreach(println)
 
