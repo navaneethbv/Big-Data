@@ -1,5 +1,5 @@
 {cs6360:~} /usr/local/apache-cassandra-2.0.5/bin/nodetool -h csac0 status 
-Datacenter: datacenter1
+Datacenter: datacenter1 
 =======================
 Status=Up/Down
 |/ State=Normal/Leaving/Joining/Moving
