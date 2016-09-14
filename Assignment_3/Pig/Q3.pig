@@ -1,7 +1,7 @@
 -- Delete the file if already present 
 rmf $output_location
  
--- Start of script 
+-- Start of script  
  
 A = LOAD '/yelpdatafall/business/business.csv' USING PigStorage('^');
 B = LOAD '/yelpdatafall/review/review.csv' USING PigStorage('^');
