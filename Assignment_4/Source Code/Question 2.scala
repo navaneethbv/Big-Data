@@ -15,7 +15,7 @@ var kv = intMap.map(x => (x(0), Arrays.copyOfRange(x, 1,6041)))
 //take input from user for a movie ID
 
 // have 1 for loop = x for given movie and y = 1 to N 
-//similarity(x,y) calculation
+//similarity(x,y) calculation 
 // <1718, [-1.5,2.3,0,-1.2]>
 // multiply each item of given movie with current y. And add the products together.
 //THIS IS YOUR NUMERATOR
