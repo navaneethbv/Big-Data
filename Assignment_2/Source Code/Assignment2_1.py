@@ -3,7 +3,7 @@ import getopt
  
 from pyspark import SparkContext,SparkConf
    
-search = ""  
+search = ""   
 
 def f((x,y)): print(x+" "+y) 
 def filt((x,y)): 
