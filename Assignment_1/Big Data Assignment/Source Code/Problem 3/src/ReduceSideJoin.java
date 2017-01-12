@@ -34,7 +34,7 @@ class ValueComparator implements Comparator<Object> {
 		
 		int compare=valueB.compareTo(valueA);
 		
-		if(compare==0)
+		if(compare==0) 
 			return 1;		
 		return compare;
 	}
